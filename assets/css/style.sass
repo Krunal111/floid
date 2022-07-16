@@ -1,0 +1,543 @@
+@import "_general"
+@import "_header"
+
+/* Hero Block CSS Start */
+.hero__block
+    padding: 19% 0
+    min-height: 100vh
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+.hero__content
+    position: relative
+    z-index: 2
+    p
+        font-size: 1.063rem
+        width: 48.125rem
+        margin: 0 auto 2rem
+.explore-btn
+    position: absolute
+    top: auto
+    bottom: 1.875rem
+    left: 50%
+    transform: translateX(-50%)
+    right: auto
+    font-size: 0.875rem
+    font-weight: 700
+    line-height: normal
+    letter-spacing: 0.131rem
+    &:hover
+        color: $secondary_color !important
+        svg
+            path
+                fill: $secondary_color
+                transition: all 0.6s ease-in-out
+    img, svg
+        margin: -0.125rem 0 0 0.5rem
+/* Hero Block CSS End */
+
+/* Best Sellers Block CSS Start */
+.best__sellers__section
+    margin-top: 4.688rem
+.best__sellers__slider
+    padding-top: 1.25rem
+    padding-left: 4.688rem
+.star__list
+    li
+        &:not(:last-child)
+            margin-right: 0.313rem
+        svg
+            path
+                fill: #EAEAEA
+        &.added
+            svg
+                path
+                    fill: #F0D563
+.swiper-button
+    width: 2.875rem
+    height: 2.875rem
+    background: #ffffff url(../images/icons/arrow-right.svg) no-repeat center / 1rem
+    box-shadow: 0 0.875 2.5rem rgba(0, 0, 0, 0.08)
+    border-radius: 50%
+    &.swiper-button-next
+        right: 3.75rem
+    &.swiper-button-prev
+        left: 3.75rem
+        transform: rotate(180deg)
+    &.swiper-button-disabled, &:after
+        display: none
+.product__item
+    position: relative
+    transition: all 0.6s ease-in-out
+    &:hover
+        margin-top: -1.25rem
+        box-shadow: 0 1.875rem 2.5rem rgba(0, 0, 0, 0.08)
+        border-radius: 0.75rem
+        transition: all 0.6s ease-in-out
+        .product__image
+            border-radius: 0.75rem 0.75rem 0 0
+            transition: all 0.6s ease-in-out
+    .product__badge
+        position: absolute
+        top: 0
+        left: 0.938rem
+        right: auto
+        bottom: auto
+        span
+            font-size: 0.688rem
+            font-weight: 800
+            letter-spacing: 0.069rem
+            padding: 0.563rem 0.313rem
+            writing-mode: tb-rl
+            &.sale
+                background-color: #F24343
+            &.new
+                background-color: #6BBBAE
+            &.in-stock
+                background-color: #8DB9CA
+    .product__image
+        background-color: $grey_color_1
+        padding: 1.25rem
+        transition: all 0.6s ease-in-out
+        a
+            display: block
+            position: relative
+            overflow: hidden
+            padding-top: 95%
+            img
+                width: 100%
+                height: 100%
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                object-fit: contain
+                margin: auto
+                transform: scale(1)
+                transition: all 0.6s ease-in-out
+            &:hover
+                img
+                    transform: scale(1.04)
+                    transition: all 0.6s ease-in-out
+    .product__details
+        padding: 0.938rem
+        .product__name
+            letter-spacing: 0.019rem
+.product__price
+    font-size: 0.938rem
+    .price-offer
+        color: #CACCCE
+.product__variations
+    margin-top: 0.688rem
+    .color__item
+        &:not(:last-child)
+            margin-right: 0.375rem
+        input[type=radio]
+            display: none
+            &:checked
+                & + label
+                    width: 1.125rem
+                    height: 1.125rem
+                    &:before
+                        opacity: 1
+                        visibility: visible
+        label
+            width: 1.375rem
+            height: 1.375rem
+            cursor: pointer
+            border-radius: 50%
+            margin-bottom: 0
+            position: relative
+            &:before
+                content: ""
+                position: absolute
+                top: -0.188rem
+                left: -0.188rem
+                right: -0.188rem
+                bottom: -0.188rem
+                border: 1px solid #221F20
+                border-radius: 50%
+                opacity: 0
+                visibility: hidden
+/* Best Sellers Block CSS End */
+
+/* Real Life Block CSS Start */
+.real__life__section
+    margin-top: 4.688rem
+    padding: 5rem 0 5.625rem
+    .main__title
+        width: 25rem
+        margin: 0 auto 1.875rem
+        position: relative
+        z-index: 9
+
+.real__life__item
+    position: relative
+    overflow: hidden
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        object-fit: cover
+        transform: scale(1)
+        transition: all 0.6s ease-in-out
+    &:hover
+        img
+            transform: scale(1.1)
+            transition: all 0.6s ease-in-out
+.real__life__col--1
+    margin-top: -15rem
+    .real__life__item
+        &:nth-child(1)
+            width: 15.313rem
+            padding-top: 53.5%
+        &:nth-child(2)
+            width: 26.25rem
+            padding-top: 50%
+            margin-top: 3.75rem
+        &:nth-child(3)
+            width: 16.563rem
+            padding-top: 43.5%
+            margin: -25.625rem 0 0 20rem
+.real__life__col--2
+    margin-top: -17.188rem
+    .real__life__item
+        &:nth-child(1)
+            width: 7.5rem
+            margin-left: auto
+            padding-top: 26%
+        &:nth-child(2)
+            width: 14.375rem
+            padding-top: 50%
+            margin: -5.625rem 9.375rem 0 auto
+            z-index: 1
+        &:nth-child(3)
+            width: 32.5rem
+            margin: -3.125rem 2.5rem 0 auto
+            padding-top: 60%
+/* Real Life Block CSS End */
+
+/* Brew Guides Block CSS Start */
+.brew__guide__section
+    margin-top: 8.75rem
+    .row
+        margin: 0 -2.5rem
+        & > div
+            padding: 0 2.5rem
+.brew__content__col
+    max-width: 44%
+    flex: 0 0 44%
+.brew__banner__col
+    max-width: 56%
+    flex: 0 0 56%
+.brew__guide__content
+    p
+        margin-bottom: 1.563rem
+.brew__guide__banner
+    position: relative
+    margin-right: 5.313rem
+    padding-top: 70%
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        object-fit: cover
+    &:hover
+        &:after
+            top: 1.5rem
+            right: -1.5rem
+            transition: all 0.6s ease-in-out
+    &:before
+        content: ""
+        position: absolute
+        top: -4.5rem
+        right: -3.75rem
+        width: 9.063rem
+        height: 9.063rem
+        background: url(../images/espro-icon.png) no-repeat center / contain
+        z-index: 1
+        animation: simple-move 40s linear infinite alternate
+    &:after
+        content: ""
+        position: absolute
+        top: 2.5rem
+        right: -2.5rem
+        width: 100%
+        height: 100%
+        background-color: #84AEC1
+        z-index: -1
+        transition: all 0.6s ease-in-out
+/* Brew Guides Block CSS End */
+
+/* Instagram Block CSS Start */
+.instagram__section
+    margin-top: 8.125rem
+    padding: 4.688rem 0
+    background-color: $grey_color_3
+    .btn
+        svg, img
+            margin: -0.063rem 0.313rem 0 0
+.instagram__slider
+    padding-top: 2.5rem
+    .swiper-slide
+        &:nth-child(even)
+            margin-top: -1.25rem
+        &.swiper-slide-active
+            margin-top: -2.5rem
+    .instagram__item
+        position: relative
+        overflow: hidden
+        padding-top: 100%
+        img
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            object-fit: cover
+            transform: scale(1)
+            transition: all 0.6s ease-in-out
+        &:hover
+            img
+                transform: scale(1.1)
+                transition: all 0.6s ease-in-out
+/* Instagram Block CSS End */
+
+/* Footer CSS Start */
+.newsletter
+    padding: 3.125rem 0
+.newsletter__form
+    padding-left: 5.313rem
+    button
+        position: absolute
+        top: 0
+        right: 0
+        left: auto
+        bottom: auto
+        font-size: 0.75rem
+        letter-spacing: 0.113rem
+        padding: 1.625rem 1.875rem 1.5rem
+        line-height: normal
+        transition: all 0.6s ease-in-out
+        &:hover
+            background-color: $primary_color !important
+            border-radius: 0 0.375rem 0.375rem 0
+            transition: all 0.6s ease-in-out
+
+.footer
+    background-color: $crystal_blue
+.footer__main
+    .container
+        padding-top: 3.125rem
+        padding-bottom: 3.125rem
+        background: linear-gradient(to right, #ffffff 0.188rem, rgba(255, 255, 255, 0) 0%)
+        background-position: top
+        background-size: 1.813rem 0.188rem
+        background-repeat: repeat-x
+.footer__widget
+    h6
+        margin-bottom: 1rem
+        font-size: 0.875rem
+        font-family: 'Josefin Sans', sans-serif
+        font-weight: 700
+    ul
+        li
+            &:not(:last-child)
+                margin-bottom: 0.375rem
+            a
+                font-size: 0.875rem
+                text-decoration: none
+                color: $grey_color_3
+        &.social__media
+            li:not(:last-child)
+                margin: 0 0.625rem 0 0
+.social__media
+    li
+        a
+            width: 2.5rem
+            height: 2.5rem
+            background-color: #84AEC1
+            border-radius: 50%
+            position: relative
+            overflow: hidden
+            display: flex
+            align-items: center
+            justify-content: center
+            svg, img
+                z-index: 9
+                transform: rotateY(0deg)
+                transition: 0.5s
+            &:before
+                content: ""
+                position: absolute
+                top: 100%
+                left: 0
+                width: 100%
+                height: 100%
+                background: linear-gradient(180deg, $secondary_color 0%, $grey_color_1 100%)
+                transition: 0.5s
+                z-index: 2
+            &:hover
+                &:before
+                    top: 0
+                svg, img
+                    transform: rotateY(360deg)
+                    transition: 0.5s
+.company__info
+    .footer__logo
+        margin-bottom: 2.375rem
+.copyright
+    padding: 1.125rem 0
+    p, a
+        color: $grey_color_3
+        font-size: 0.813rem
+        text-decoration: none
+.copyright
+    ul
+        li
+            &:not(:last-child)
+                margin-right: 1.875rem
+/* Footer CSS End */
+@media (max-width: 1280px)
+    /* Real Life Block CSS Start */
+    .real__life__section
+        margin-top: 3.125rem
+        padding: 4rem 0 4.625rem
+    .real__life__col--1
+        .real__life__item
+            &:nth-child(1)
+                width: 12rem
+            &:nth-child(2)
+                width: 16rem
+                padding-top: 40%
+                margin-top: 1.75rem
+            &:nth-child(3)
+                width: 10rem
+                padding-top: 30%
+                margin: -16rem 0 0 14rem
+    .real__life__col--2
+        margin-top: -10rem
+        .real__life__item
+            &:nth-child(2)
+                width: 10rem
+                padding-top: 35%
+                margin: -1rem 9.375rem 0 auto
+            &:nth-child(3)
+                width: 25rem
+                padding-top: 55%
+    /* Real Life Block CSS End */
+@media (max-width: 1199px)
+    /* Hero Block CSS Start */
+    .hero__block
+        min-height: initial
+    /* Hero Block CSS End */
+
+    /* Best Sellers Block CSS Start */
+    .best__sellers__section
+        margin-top: 3.125rem
+    .best__sellers__slider
+        padding-top: 1rem
+        padding-left: 2rem
+    /* Best Sellers Block CSS End */
+
+    /* Instagram Block CSS Start */
+    .instagram__section
+        margin-top: 3rem
+    /* Instagram Block CSS End */
+
+    /* Brew Guides Block CSS Start */
+    .brew__guide__section
+        margin-top: 6.125rem
+        .row
+            margin: 0 -1.5rem
+            & > div
+                padding: 0 1.5rem
+    /* Brew Guides Block CSS End */
+@media (max-width: 991px)
+    /* Real Life Block CSS Start */
+    .real__life__col--1, .real__life__col--2
+        margin-top: 0
+    /* Real Life Block CSS End */
+
+    /* Footer CSS Start */
+    .newsletter__form
+        padding-left: 2rem
+    /* Footer CSS End */
+@media (max-width: 767px)
+    /* Hero Block CSS Start */
+    .hero__block
+        padding: 50% 0 30%
+    .hero__content
+        p
+            width: 100%
+    /* Hero Block CSS End */
+    
+    /* Real Life Block CSS Start */
+    .real__life__section
+        .main__title
+            width: 100%
+    .real__life__col--2
+        margin-top: 7rem
+    /* Real Life Block CSS End */
+
+    /* Brew Guides Block CSS Start */
+    .brew__guide__section
+        margin-top: 4rem
+        .row
+            margin: 0 -1.2rem
+            & > div
+                padding: 0 1.2rem
+                max-width: 100%
+                flex: 0 0 100%
+    .brew__guide__banner
+        margin-top: 3rem
+        &:before
+            width: 6rem
+            height: 6em
+            top: -3em
+    /* Brew Guides Block CSS End */
+
+    /* Instagram Block CSS Start */
+    .instagram__section
+        margin-top: 6rem
+        padding: 3rem 0
+        .col
+            max-width: 100%
+            flex: 0 0 100%
+            &:last-child
+                text-align: left !important
+                margin-top: 0.5rem
+    .instagram__slider
+        padding-top: 5.5rem
+    /* Instagram Block CSS End */
+
+    /* Footer CSS Start */
+    .newsletter__form
+        padding: 1.5rem 0 0
+    .footer__widget
+        margin-top: 2rem
+    .footer__main
+        .container
+            padding-bottom: 2rem
+        .col-lg-2
+            max-width: 50%
+            flex: 0 0 50%
+    
+    .copyright
+        padding: 1rem 0
+        text-align: left
+    .terms__links
+        justify-content: flex-start !important
+        margin-top: 1rem
+    /* Footer CSS End */
