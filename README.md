@@ -10,6 +10,9 @@ Instruction:
 3. Nothing Pending form my end.
 
 - For work approached first check design and collect information regarding header tag size, body fontsize, body font-family
+- Also worked on page speed optimization: [Dektop: 99/100] [Mobile: 84/100]
+- https://pagespeed.web.dev/report?url=https%3A%2F%2Fkrunal111.github.io%2FkrunalR_practicalTest%2F&form_factor=mobile
+
 - Faced issue on Our Best Sellers section for full width section and container from the left side but i got solution and apply it.
 
 - For QA, I used manually testing and work accordingly to write browser compatible code.
