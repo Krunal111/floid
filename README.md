@@ -1,3 +1,5 @@
+Page UL: https://krunal111.github.io/krunalR_practicalTest/
+
 1. CSS framework bootstrap 4.6
 2. Swipe Slider Used For Product and Instagram Slide
 3. AOS Animation For Section Scroll Animation
