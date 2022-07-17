@@ -1,0 +1,238 @@
+/* Header Top CSS Start */
+.header__top
+    padding: 0.875rem 0 0.75rem
+    .shipping__text
+        font-size: 0.688rem
+        letter-spacing: 0.103rem
+        line-height: 1
+/* Header Top CSS End */
+
+/* Megamenu CSS Start */
+.fixed-header
+    .megamenu__wrappper
+        top: 3.438rem
+.megamenu__wrappper
+    top: 5.313rem
+    padding: 2.5rem 0
+    opacity: 0
+    visibility: hidden
+.menu__product__img
+    position: relative
+    overflow: hidden
+    padding-top: 71%
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        object-fit: contain
+        margin: auto
+.menu__product__name
+    margin-top: 2.5rem
+    h5
+        font-size: 1.625rem
+        letter-spacing: 0.041rem
+.megamenu__links
+    h6
+        font-size: 0.813rem
+        letter-spacing: 0.081rem
+    ul
+        li
+            a
+                font-size: 1.438rem
+                font-family: 'Barlow Condensed', sans-serif
+                font-weight: 600
+                letter-spacing: 0.036rem
+                text-decoration: none
+            &:not(:last-child)
+                margin-bottom: 0.375rem
+    .btn
+        padding: 0.75rem 1.563rem
+        border-radius: 1.438rem
+.nav-item
+    &.has-child
+        &:hover
+            .nav-link
+                &:after
+                    transform: rotate(180deg)
+            .megamenu__wrappper
+                opacity: 1
+                visibility: visible
+/* Megamenu CSS End */
+
+/* Header Main CSS Start */
+.header
+    width: 100%
+    transition: all 0.6s ease-in-out
+.fixed-header
+    box-shadow: 0 1px 5px 1px rgba(34, 31, 32, 0.1)
+    transition: all 0.6s ease-in-out
+    .header__top
+        display: none
+.header__logo
+    padding-left: 3.125rem
+.navbar-nav
+    .nav-item
+        padding: 1.2rem 0 1.25rem
+        &:not(:last-child)
+            margin-right: 3.125rem
+        .nav-link
+            font-family: 'Josefin Sans', sans-serif
+            font-size: 0.813rem
+            padding: 0
+            text-transform: uppercase
+            letter-spacing: 0.122rem
+            line-height: normal
+            font-weight: 700
+            position: relative
+        &.has-child
+            .nav-link
+                padding-right: 1rem
+                &:after
+                    content: ""
+                    position: absolute
+                    top: 0.125rem
+                    right: 0
+                    width: 0.563rem
+                    height: 0.313rem
+                    background: url(../images/icons/menu-down-arrow.svg) no-repeat center / contain
+.header__icon
+    .header__icon__item
+        &:not(:last-child)
+            margin-right: 1.5rem
+.mobile__toggle, .mobile__menu
+    display: none
+.header--cart
+    .cart__count
+        position: absolute
+        top: 0
+        right: -1.875rem
+        width: 1.5rem
+        height: 1.5rem
+        border-radius: 50%
+        background-color: rgba(101, 154, 177, 0.3)
+        font-size: 0.813rem
+        font-family: 'Barlow Condensed', sans-serif
+        font-weight: 600
+        display: flex
+        align-items: center
+        justify-content: center
+/* Header Main CSS End */
+
+@media (max-width: 1199px)
+    /* Header Main CSS Start */
+    .header__logo
+        padding-left: 0
+    .navbar-nav
+        .nav-item
+            &:not(:last-child)
+                margin-right: 1.563rem
+    /* Header Main CSS End */
+@media (max-width: 991px)
+    /* Header Main CSS Start */
+    .header__main__left, .header__menu .nav-item:not(:last-child)
+        display: none
+    .header__main
+        padding: 1rem 0
+    .header__menu
+        .navbar-nav
+            justify-content: flex-end
+    .mobile__toggle
+        display: block
+        padding-left: 1.5rem
+        z-index: 99
+        .mobile__line
+            border-radius: 0.571rem
+            background-color: $primary_color
+            width: 2.143rem
+            height: 0.143rem
+            position: relative
+            &:not(:last-child)
+                margin-bottom: 0.429rem
+        &.show
+            .mobile__line
+                &:first-child
+                    transform: rotate(45deg)
+                    top: 0.429rem
+                &:nth-child(2)
+                    transform: rotate(-45deg)
+                    top: -0.143rem
+                &:last-child
+                    display: none
+    .mobile__menu
+        position: fixed
+        top: 6.429rem
+        left: 0
+        background-color: #ffffff
+        width: 100%
+        overflow: auto
+        padding: 1.429rem 1.071rem
+        &.show
+            display: block
+    .fixed-header
+        .mobile__menu
+            top: 4.071rem
+    /* Megamenu CSS Start */
+    .megamenu__wrappper
+        padding: 2.5rem 0 1.5em
+        opacity: 1
+        visibility: visible
+        display: none
+    .navbar-nav
+        .nav-item
+            padding: 0
+            .nav-link
+                display: inline
+            &:not(:last-child)
+                margin: 0 0 1rem
+    .megamenu__col
+        max-width: 25%
+        flex: 0 0 25%
+        padding: 0 15px
+    /* Megamenu CSS End */
+
+    /* Header Main CSS End */
+@media (max-width: 767px)
+    /* Header Main CSS Start */
+    .header__main__right
+        .col-md-4
+            max-width: 30%
+            flex: 0 0 30%
+        .col-md-8
+            max-width: 70%
+            flex: 0 0 70%
+    /* Header Main CSS End */
+
+    /* Megamenu CSS Start */
+    .mobile__menu
+        top: 6.143rem
+    .fixed-header
+        .mobile__menu
+            top: 3.857rem
+    .megamenu__col
+        max-width: 33.33%
+        flex: 0 0 33.33%
+        margin-bottom: 2rem
+        &:last-child
+            max-width: 100%
+            flex: 0 0 100%
+            margin-bottom: 0
+    .menu__product__name
+        margin-top: 1rem
+        h5
+            font-size: 1rem
+    .megamenu__links
+        ul
+            margin-bottom: 1rem !important
+            li
+                &:not(:last-child)
+                    margin-bottom: 0.2rem
+                a
+                    font-size: 1rem
+    /* Megamenu CSS End */
+@media screen and (min-width: 320px) and (max-width: 812px) and (orientation: landscape)
+    .mobile__menu
+        height: 100%

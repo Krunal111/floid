@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOID | BREW ANYWHERE. BE ANYWHERE.</title>
+    <link rel="shortcut icon" sizes="64x64" href="./assets/images/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Josefin+Sans:wght@700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4.6 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <!-- Swiper Slider CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- AOS Animation CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Header Block Start -->
+    <header class="header fixed-top" data-aos="fade-down">
+        <div class="header__top dark-sky-blue-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="shipping__text josefin-sans-font font-weight-bold text-uppercase text-white small text-center mb-0">Free shipping on all u.S. Orders $49+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main bg-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="header__main__left col-lg-5 col-md-12 position-static">
+                        <ul class="navbar-nav flex-row">
+                            <li class="nav-item has-child">
+                                <a class="nav-link" href="#">shop</a>
+                                <div class="megamenu__wrappper fixed-top bg-white">
+                                    <div class="container">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-3">
+                                                <div class="menu__product text-center">
+                                                    <a href="#" class="text-decoration-none">
+                                                        <div class="menu__product__img">
+                                                            <img src="./assets/images/products/menu-img-1.png" alt="Menu Image">
+                                                        </div>
+                                                        <div class="menu__product__name">
+                                                            <h5 class="mb-0 text-uppercase">FRENCH PRESS</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="menu__product text-center">
+                                                    <a href="#" class="text-decoration-none">
+                                                        <div class="menu__product__img">
+                                                            <img src="./assets/images/products/menu-img-2.png" alt="Menu Image">
+                                                        </div>
+                                                        <div class="menu__product__name">
+                                                            <h5 class="mb-0 text-uppercase">TRAVEL PRESS</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="menu__product text-center">
+                                                    <a href="#" class="text-decoration-none">
+                                                        <div class="menu__product__img">
+                                                            <img src="./assets/images/products/menu-img-3.png" alt="Menu Image">
+                                                        </div>
+                                                        <div class="menu__product__name">
+                                                            <h5 class="mb-0 text-uppercase">POUR OVER</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="megamenu__links">
+                                                    <h6 class="text-uppercase josefin-sans-font font-weight-bold">OTHER COLLECTIONS</h6>
+                                                    <ul class="list-unstyled mb-4">
+                                                        <li>
+                                                            <a href="#">COLD BREW</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">ESPRESSO</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">TASTING CUPS</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">ACCESSORIES</a>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="btn btn-outline">SHOP ALL</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">our story</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__main__right col-lg-7 col-md-12">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <div class="header__logo">
+                                    <a href="index.html"><img src="./assets/images/logo/logo.svg" width="92" height="30" alt="FLOID"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="header__menu">
+                                    <ul class="navbar-nav flex-row align-items-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">BREW GUIDES</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">BLOG</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="header__icon d-flex align-items-center">
+                                                <div class="header__icon__item header--search">
+                                                    <a href="#">
+                                                        <img class="in-svg" src="./assets/images/icons/search-icon.svg" alt="Search">
+                                                    </a>
+                                                </div>
+                                                <div class="header__icon__item header--account">
+                                                    <a href="#">
+                                                        <img class="in-svg" src="./assets/images/icons/account-icon.svg" alt="User">
+                                                    </a>
+                                                </div>
+                                                <div class="header__icon__item header--cart position-relative">
+                                                    <a href="#">
+                                                        <img class="in-svg" src="./assets/images/icons/cart-icon.svg" alt="Shopping Cart">
+                                                        <span class="cart__count">0</span>
+                                                    </a>
+                                                </div>
+                                                <div class="header__icon__item mobile__toggle">
+                                                    <div class="mobile__line"></div>
+                                                    <div class="mobile__line"></div>
+                                                    <div class="mobile__line"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mobile Menu Start -->
+                    <div class="mobile__menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item has-child">
+                                <a class="nav-link" href="javascript: void(0);">shop</a>
+                                <div class="megamenu__wrappper bg-white">
+                                    <div class="row">
+                                        <div class="megamenu__col menu__product text-center">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="menu__product__img">
+                                                    <img src="./assets/images/products/menu-img-1.png" alt="Menu Image">
+                                                </div>
+                                                <div class="menu__product__name">
+                                                    <h5 class="mb-0 text-uppercase">FRENCH PRESS</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="megamenu__col menu__product text-center">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="menu__product__img">
+                                                    <img src="./assets/images/products/menu-img-2.png" alt="Menu Image">
+                                                </div>
+                                                <div class="menu__product__name">
+                                                    <h5 class="mb-0 text-uppercase">TRAVEL PRESS</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="megamenu__col menu__product text-center">
+                                            <a href="#" class="text-decoration-none">
+                                                <div class="menu__product__img">
+                                                    <img src="./assets/images/products/menu-img-3.png" alt="Menu Image">
+                                                </div>
+                                                <div class="menu__product__name">
+                                                    <h5 class="mb-0 text-uppercase">POUR OVER</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="megamenu__col megamenu__links">
+                                            <h6 class="text-uppercase josefin-sans-font font-weight-bold">OTHER COLLECTIONS</h6>
+                                            <ul class="list-unstyled mb-4">
+                                                <li>
+                                                    <a href="#">COLD BREW</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">ESPRESSO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">TASTING CUPS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">ACCESSORIES</a>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="btn btn-outline">SHOP ALL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">our story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BREW GUIDES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Mobile Menu End -->
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Block End -->
+
+    <!-- Main Content Start -->
+    <main>
+        <!-- Hero Block Start -->
+        <section class="hero__block position-relative overlay" style="background-image: url('./assets/images/hero-banner.jpg');">
+            <div class="container">
+                <div class="hero__content text-white text-center" data-aos="fade-up">
+                    <h1 class="text-uppercase">Brew anywhere. Be anywhere.</h1>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+                    <a href="#" class="btn">Pour on the go</a>
+                </div>
+                <a href="#best-seller" id="bottomScroll" class="explore-btn josefin-sans-font text-decoration-none text-white d-flex align-items-center justify-content-center">EXPLORE <img class="in-svg" src="./assets/images/icons/arrow-down.svg" alt="Down Arrow"></a>
+            </div>
+        </section>
+        <!-- Hero Block End -->
+
+        <!-- Best Sellers Block Start -->
+        <section id="best-seller" class="best__sellers__section">
+            <div class="container">
+                <div class="main__title text-center">
+                    <span class="text-uppercase josefin-sans-font font-weight-bold d-block" data-aos="fade-up">Pour your best cup with</span>
+                    <h3 class="text-uppercase font-weight-bold mb-0" data-aos="fade-up">Our best sellers</h3>
+                </div>
+            </div>
+            <div class="best__sellers__slider swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product__item">
+                            <div class="product__image">
+                                <a href="#"><img width="197" height="177" src="./assets/images/products/product-img-1.png" alt="COFFEE FRENCH PRESS P7"></a>
+                            </div>
+                            <div class="product__details">
+                                <ul class="star__list mb-2 d-flex align-items-center list-unstyled">
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li>
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                </ul>
+                                <h6 class="product__name text-uppercase josefin-sans-font font-weight-bold">Coffee french press p7</h6>
+                                <p class="product__price mb-0">$109.95 - $139.95</p>
+                                <ul class="product__variations mb-0 d-flex align-items-center list-unstyled">
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="prroduct_one_color-1">
+                                        <label for="prroduct_one_color-1" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="prroduct_one_color-2">
+                                        <label for="prroduct_one_color-2" style="background-color: #ffffff; border: 1px solid #DEDEDE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="prroduct_one_color-3">
+                                        <label for="prroduct_one_color-3" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="prroduct_one_color-4">
+                                        <label for="prroduct_one_color-4" style="background-color: #221F20;"></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product__item">
+                            <div class="product__image">
+                                <a href="#"><img width="197" height="177" src="./assets/images/products/product-img-2.png" alt="Coffee french press p6"></a>
+                            </div>
+                            <div class="product__details">
+                                <div class="product__badge">
+                                    <span class="text-white sale text-uppercase">sale</span>
+                                </div>
+                                <ul class="star__list mb-2 d-flex align-items-center list-unstyled">
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                </ul>
+                                <h6 class="product__name text-uppercase josefin-sans-font font-weight-bold">Coffee french press p6</h6>
+                                <p class="product__price mb-0">$89.95 <del class="price-offer">$99.95</del></p>
+                                <ul class="product__variations mb-0 d-flex align-items-center list-unstyled">
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_two_color-1">
+                                        <label for="product_two_color-1" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_two_color-2">
+                                        <label for="product_two_color-2" style="background-color: #ffffff; border: 1px solid #DEDEDE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_two_color-3">
+                                        <label for="product_two_color-3" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_two_color-4">
+                                        <label for="product_two_color-4" style="background-color: #221F20;"></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product__item">
+                            <div class="product__image">
+                                <a href="#"><img width="197" height="177" src="./assets/images/products/product-img-3.png" alt="Bloom pour over coffee brewing kit, 18 oz"></a>
+                            </div>
+                            <div class="product__details">
+                                <div class="product__badge">
+                                    <span class="new text-white text-uppercase">new!</span>
+                                </div>
+                                <ul class="star__list mb-2 d-flex align-items-center list-unstyled">
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                </ul>
+                                <h6 class="product__name text-uppercase josefin-sans-font font-weight-bold">Bloom pour over coffee brewing kit, 18 oz</h6>
+                                <p class="product__price mb-0">$99.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product__item">
+                            <div class="product__image">
+                                <a href="#"><img width="197" height="177" src="./assets/images/products/product-img-4.png" alt="Ultralight coffee press p0"></a>
+                            </div>
+                            <div class="product__details">
+                                <div class="product__badge">
+                                    <span class="in-stock text-white text-uppercase">BACK IN STOCK</span>
+                                </div>
+                                <ul class="star__list mb-2 d-flex align-items-center list-unstyled">
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                </ul>
+                                <h6 class="product__name text-uppercase josefin-sans-font font-weight-bold">Ultralight coffee press p0</h6>
+                                <p class="product__price mb-0">$44.95</p>
+                                <ul class="product__variations mb-0 d-flex align-items-center list-unstyled">
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_four_color-1">
+                                        <label for="product_four_color-1" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_four_color-2">
+                                        <label for="product_four_color-2" style="background-color: #ffffff; border: 1px solid #DEDEDE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_four_color-3">
+                                        <label for="product_four_color-3" style="background-color: #CACCCE;"></label>
+                                    </li>
+                                    <li class="color__item">
+                                        <input type="radio" name="color_variation" id="product_four_color-4">
+                                        <label for="product_four_color-4" style="background-color: #221F20;"></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product__item">
+                            <div class="product__image">
+                                <a href="#"><img width="197" height="177" src="./assets/images/products/product-img-5.png" alt="Coffee french press p6"></a>
+                            </div>
+                            <div class="product__details">
+                                <div class="product__badge">
+                                    <span class="new text-white text-uppercase">new!</span>
+                                </div>
+                                <ul class="star__list mb-2 d-flex align-items-center list-unstyled">
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                    <li class="added">
+                                        <img class="in-svg" src="./assets/images/icons/star.svg" alt="Star">
+                                    </li>
+                                </ul>
+                                <h6 class="product__name text-uppercase josefin-sans-font font-weight-bold">Coffee french press p6</h6>
+                                <p class="product__price mb-0">$99.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button swiper-button-next"></div>
+                <div class="swiper-button swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- Best Sellers Block End -->
+
+        <!-- Real Life Block Start -->
+        <section class="real__life__section grey-bg-2">
+            <div class="container">
+                <div class="main__title text-center">
+                    <span class="text-uppercase josefin-sans-font font-weight-bold d-block" data-aos="fade-up">Designed for real life</span>
+                    <h2 class="text-uppercase font-weight-bold mb-2" data-aos="fade-up">Coffee made for your life on the go.</h2>
+                    <p class="mb-0" data-aos="fade-up">We understand coffee is a big part of your busy, active life. That’s why we create and develop products that allow you to bring your passion for <strong>coffee-when you want it-</strong> and wherever life takes you.</p>
+                </div>
+                <div class="row">
+                    <div class="real__life__col real__life__col--1 col-md-6">
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-1.jpg" width="245" height="326" alt="Real Life Banner">
+                        </div>
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-2.jpg" width="420" height="305" alt="Real Life Banner">
+                        </div>
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-3.jpg" width="265" height="265" alt="Real Life Banner">
+                        </div>
+                    </div>
+                    <div class="real__life__col real__life__col--2 col-md-6">
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-6.jpg" width="120" height="159" alt="Real Life Banner">
+                        </div>
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-5.jpg" width="230" height="305" alt="Real Life Banner">
+                        </div>
+                        <div class="real__life__item" data-aos="fade-up">
+                            <img src="./assets/images/real-life/real-life-img-4.jpg" width="520" height="366" alt="Real Life Banner">
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Real Life Block End -->
+
+        <!-- Brew Guides Block Start -->
+        <section class="brew__guide__section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="brew__content__col">
+                        <div class="brew__guide__content">
+                            <div class="main__title">
+                                <span class="text-uppercase josefin-sans-font font-weight-bold d-block" data-aos="fade-up">THE ULTIMATE BREW GUIDES</span>
+                                <h3 class="text-uppercase font-weight-bold mb-4" data-aos="fade-up">COFFEE TO WATER RATIOS: HOW TO MEASURE COFFEE LIKE A PRO</h3>
+                                <p data-aos="fade-up"><strong>You can taste it when you’ve brewed with the perfect coffee to water ratio.</strong> The acidity pops every so slightly, enhancing the rich flavors and aromas. Your coffee’s mouthfeel is smooth and satisfying. And the flavor is just strong enough that you can sense all its nuances across your 10,000 taste buds, but not so strong that it’s uncomfortable.</p>
+                                <p data-aos="fade-up">It’s an incredible experience—and too often, a hard one to come by.</p>
+                                <p data-aos="fade-up"><a href="#" class="btn btn-outline">LEARN MORE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brew__banner__col" data-aos="fade-up">
+                        <div class="brew__guide__banner">
+                            <img src="./assets/images/brew-banner.jpg" width="580" height="465" alt="Brew Banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Brew Guides Block End -->
+
+        <!-- Instagram Block Start -->
+        <section class="instagram__section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <div class="main__title mb-0">
+                            <h4 class="text-uppercase font-weight-bold mb-2" data-aos="fade-up">SHOW US YOUR BEST POUR.</h4>
+                            <p data-aos="fade-up">Making coffee better — one cup at a time.<br /> Share your best <img class="d-inline" width="16" height="14" src="./assets/images/icons/tea-cup.png" alt="Cup of Tea"> moments with us <strong>#FLUID</strong></p>
+                        </div>
+                    </div>
+                    <div class="col text-right" data-aos="fade-up">
+                        <a href="#" class="btn btn-outline d-inline-flex"><img class="in-svg" src="./assets/images/social-icon/instagram.svg" alt="Instagram"> FOLLOW US ON INSTAGRAM</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="instagram__slider swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-1.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-2.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-3.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-4.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-5.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-6.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-4.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-5.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="instagram__item">
+                            <a href="#">
+                                <img src="./assets/images/instagram/instagram-img-6.jpg" width="225" height="225" alt="Instagram Banner">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Instagram Block End -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="newsletter">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="main__title mb-0">
+                            <h4 class="text-uppercase text-white font-weight-bold mb-2">NEVER MISS A DROP.</h4>
+                            <p class="text-white mb-0">Sign up to be the first to know about exclusive new deals, product launches and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6">
+                        <div class="newsletter__form">
+                            <form action="#" method="post">
+                                <div class="form-group position-relative mb-0">
+                                    <input type="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                                    <button type="submit" class="text-white border-0 bg-transparent josefin-sans-font text-uppercase">SIGN UP</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-3">
+                        <div class="company__info">
+                            <div class="footer__logo">
+                                <a href="#"><img src="./assets/images/logo/footer-logo.svg" width="208" height="69" alt="FLOID"></a>
+                            </div>
+                            <p class="text-white mb-0">
+                                <strong>We’re here to help.</strong>
+                                <a class="text-white text-decoration-none d-block" href="mailto:service@fluid.com">service@fluid.com</a>
+                                <a class="text-white text-decoration-none d-block" href="tel:1.844.377.7622">1.844.377.7622</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="footer__widget">
+                            <h6 class="text-white text-uppercase">LEARN</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="#">Brew Guides</a>
+                                </li>
+                                <li>
+                                    <a href="#">Retailers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="footer__widget">
+                            <h6 class="text-white text-uppercase">SUPPORT</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shipping & Returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Guarantee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="footer__widget">
+                            <h6 class="text-white text-uppercase">COMPANY</h6>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Join Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Retailers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <div class="footer__widget">
+                            <h6 class="text-white text-uppercase">CONNECT WITH US</h6>
+                            <ul class="social__media d-flex align-items-center list-unstyled mb-0">
+                                <li>
+                                    <a href="#" target="_blank"><img class="in-svg" src="./assets/images/social-icon/facebook.svg" alt="Facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img class="in-svg" src="./assets/images/social-icon/instagram.svg" alt="Instagram.svg"></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img class="in-svg" src="./assets/images/social-icon/twitter.svg" alt="Twitter.svg"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">Copyright © 2021 fluid Inc.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="terms__links list-unstyled d-flex align-items-center justify-content-end mb-0">
+                            <li>
+                                <a href="#">Terms & Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Patents</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Swiper Slider JS CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- AOS Animation JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
