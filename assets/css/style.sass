@@ -42,6 +42,10 @@
 .best__sellers__slider
     padding: 1.25rem 0
     padding-left: 4.688rem
+@media (min-width: 1300px)
+    .best__sellers__slider
+        --containerWidth: 1280px
+        padding-left: calc((100% - var(--containerWidth)) / 2)
 .star__list
     li
         &:not(:last-child)
@@ -409,11 +413,6 @@
             &:not(:last-child)
                 margin-right: 1.875rem
 /* Footer CSS End */
-@media (max-width: 1366px)
-    /* Best Sellers Block CSS Start */
-    .best__sellers__slider
-        padding-left: 3.125rem
-    /* Best Sellers Block CSS End */
 @media (max-width: 1280px)
     /* Real Life Block CSS Start */
     .real__life__section
