@@ -476,6 +476,14 @@ a:hover {
 }
 
 /* Header Main CSS End */
+@media (max-width: 1280px) {
+  /* Header Main CSS Start */
+  .megamenu__wrappper {
+    top: 5.625rem;
+  }
+  /* Header Main CSS End */
+}
+
 @media (max-width: 1199px) {
   /* Header Main CSS Start */
   .header__logo {
@@ -685,7 +693,7 @@ a:hover {
 }
 
 .best__sellers__slider {
-  padding-top: 1.25rem;
+  padding: 1.25rem 0;
   padding-left: 4.688rem;
 }
 
@@ -876,7 +884,7 @@ a:hover {
 /* Best Sellers Block CSS End */
 /* Real Life Block CSS Start */
 .real__life__section {
-  margin-top: 4.688rem;
+  margin-top: 3.438rem;
   padding: 5rem 0 5.625rem;
 }
 
@@ -1231,6 +1239,14 @@ a:hover {
 }
 
 /* Footer CSS End */
+@media (max-width: 1366px) {
+  /* Best Sellers Block CSS Start */
+  .best__sellers__slider {
+    padding-left: 3.125rem;
+  }
+  /* Best Sellers Block CSS End */
+}
+
 @media (max-width: 1280px) {
   /* Real Life Block CSS Start */
   .real__life__section {

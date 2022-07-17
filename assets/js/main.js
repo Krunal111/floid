@@ -63,7 +63,8 @@ var bestSellerSlider = new Swiper(".best__sellers__slider", {
         slidesPerView: 3.5
       },
       1024: {
-        slidesPerView: 4.3
+        slidesPerView: 4.3,
+        spaceBetween: 30
       },
     },
   });
@@ -87,7 +88,8 @@ var instagramSlider = new Swiper(".instagram__slider", {
       slidesPerView: 4.5
     },
     1024: {
-      slidesPerView: 5.4
+      slidesPerView: 5.4,
+      spaceBetween: 30
     },
   },
 });
