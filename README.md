@@ -1,4 +1,4 @@
-Page URL: https://krunal111.github.io/krunalR_practicalTest/
+Page URL: https://krunal111.github.io/floid/
 
 1. CSS framework bootstrap 4.6
 2. Swipe Slider Used For Product and Instagram Slide
